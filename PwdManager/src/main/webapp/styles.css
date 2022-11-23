@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #111;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+}
+
+.registerForm {
+	margin-top: 1%;
+	text-align: center;
+	align-items: center;
+	}
+h1 {
+	margin: 0 auto;
+	text-align: center;
+}
+.box {
+	margin:0 auto;
+	padding: 20px;
+	background:#f9f9f9;
+	border: 2px solid #333;
+	max-width: 300px;
+}
+
+.logout {
+	
+  	background-color: #333;
+	color: white;
+	border: none;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+	
+}
+.logout:hover {
+	background-color: #111;
+	cursor: pointer;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

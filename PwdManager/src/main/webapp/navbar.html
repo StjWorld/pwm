@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet123" href="styles.css">
+</head>
+<body>
+<% String session_user = null; %>
+<% session_user = (String)session.getAttribute("user"); %>
+
+<% if (session_user != null) { %>
+<ul>
+  <li><a href="index.jsp">Home</a></li>
+  <form style="float:right" action='Logout' method='post'><input class='logout' type="submit" value="Logout"></form>
+</ul>
+
+<% } else { %>
+<ul>
+  <li><a href="index.jsp">Home</a></li>
+  <li style="float:right"><a class="active" href="login.jsp">Login</a></li>
+  <li style="float:right"><a class="active" href="register.jsp">Register</a></li>
+</ul>
+<% } %>
+
+</body>
+</html>
